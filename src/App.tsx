@@ -4,6 +4,7 @@ import {Main} from "./layout/sections/main/Main";
 import {Skills} from "./layout/sections/skills/Skills";
 import {Works} from "./layout/sections/work/Works";
 import styled from "styled-components";
+import {Footer} from "./layout/sections/footer/Footer";
 
 
 function App() {
@@ -13,13 +14,17 @@ function App() {
             <Main />
             <Skills />
             <Works />
+            <Footer />
         </StyledMainApp>
     );
 }
 
 const StyledMainApp = styled.div `
-    background-color: #191919;
+    padding: 50px 100px;
+    
 `
+
+
 
 export default App;
 

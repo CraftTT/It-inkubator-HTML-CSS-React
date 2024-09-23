@@ -8,7 +8,7 @@ export const Skills = () => {
     return (
         <StyledSkills>
             <SectionTitle>My Tech Stack</SectionTitle>
-            <FlexWrapper wrap={"wrap"} justify={"space-between"}>
+            <FlexWrapper wrap={"wrap"} justify={"center"} align={"center"}>
                 <Skill iconId={"html"}/>
                 <Skill iconId={"css"}/>
                 <Skill iconId={"js"}/>

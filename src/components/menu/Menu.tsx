@@ -23,6 +23,7 @@ const StyledMenu = styled.nav `
     ul {
         display: flex;
         gap: 30px;
+   
          }
     a {
         font-weight: 500;
@@ -30,11 +31,9 @@ const StyledMenu = styled.nav `
         line-height: 130%;
         text-align: center;
         color: #a7a7a7;
-        text-decoration: none;
+       
         
     }
-    li {
-        list-style: none;
-    }
+  
 `
 

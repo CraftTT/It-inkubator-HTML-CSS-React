@@ -18,7 +18,7 @@ export const Works = () => {
         <StyledWorks>
 
             <SectionTitle>My Projects</SectionTitle>
-            <Menu menuItems={worksItems}/>
+            <MenuWrapper><Menu menuItems={worksItems}/></MenuWrapper>
             <FlexWrapper wrap={"wrap"} justify={"center"} align={"center"}>
                 <Work title={"Project Tile goes here"} text={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"} src={socialImg}/>
                 <Work title={"Project Tile goes here"} text={"This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"} src={socialImg2}/>
@@ -34,4 +34,9 @@ export const Works = () => {
 const StyledWorks = styled.section`
     min-height: 100vh;
    
+`
+
+const MenuWrapper = styled.div`
+    display: flex;
+    justify-content: center;
 `

@@ -24,7 +24,6 @@ const StyledWork = styled.div`
     width: 373px;
     height: 567px;
     box-shadow: 2px 2px 100px 0 rgba(0, 0, 0, 0.2);
-    background: #363636;
     padding: 31px;
     margin: 20px;
 `
