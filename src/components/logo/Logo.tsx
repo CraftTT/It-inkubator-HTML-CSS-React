@@ -6,6 +6,7 @@ export  const Logo = () => {
         <div>
             <a href="">
                 <Icon iconId={`logo`}/>
+
             </a>
         </div>
     );

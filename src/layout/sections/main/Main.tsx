@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import photo from '../../../assets/images/Ava.webp'
 import {FlexWrapper} from "../../../components/FlexWrapper";
+import Theme from "../../../styles/Theme";
 
 export const Main = () => {
     return (
@@ -12,7 +13,8 @@ export const Main = () => {
                         <MainB>Amir</MainB><br/>
                         I build things for web
                     </MainSpan>
-                <Photo src={photo} alt=""/>
+                        <Photo src={photo} alt=""/>
+
             </FlexWrapper>
         </StyledMain>
     );
@@ -23,6 +25,7 @@ const StyledMain = styled.main`
     margin: 100px;
    
 `
+
 
 const Photo = styled.img`
     border-radius: 174px;
